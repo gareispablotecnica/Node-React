@@ -4,7 +4,7 @@
 Su propósito es manejar una base de datos de ejemplo (escuela.db) en la que se gestionan Alumnos.
 
 ### Datos del Curso:
-- Materia: Proyecto, Diseño e Implementación de Sistema
+- Materia: Proyecto, Diseño e Implementación de Sistemas Computacionales
 - Carrera: Técnicatura en Programación
 - Institución: Técnica N°1
 - Curso: 7°2 - Grupo de Taller: 7.4
