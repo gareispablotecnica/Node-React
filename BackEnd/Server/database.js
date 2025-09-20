@@ -21,3 +21,6 @@ db.run(
             Nombre TEXT,
             Apellido TEXT
 )`)
+
+// ---> Exportar la Base de Datos
+module.exports= db
