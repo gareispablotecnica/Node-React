@@ -5,9 +5,9 @@ Su propósito es manejar una base de datos de ejemplo (escuela.db) en la que se 
 
 ## Datos del Curso:
 - Materia: Proyecto, Diseño e Implementación de Sistemas Computacionales
-- Carrera: Técnicatura en Programación
+- Carrera: Técnicatura en Programación - Informática Personal y Profesional
 - Institución: Técnica N°1
-- Curso: 7°2 - Grupo de Taller: 7.4
+- Curso: 7mo- Grupo de Taller: 7.4 & 7.1
 - Docente: Prof. Gareis Pablo
 
 
