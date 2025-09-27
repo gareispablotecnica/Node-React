@@ -35,7 +35,7 @@ FrontEnd: Interfaz web desarrollada en React + Vite, que consume la API para mos
 NODE-REACT/
 ├─ BackEnd/                # Servidor en Node.js (API REST)
 │  ├─ node_modules/
-│  ├─ .env                  # Variables de entorno (por ejemplo, PORT)
+│  ├─ .env                  # Variables de entorno (PORT)
 │  ├─ index.js              # Punto de entrada del servidor Express
 │  ├─ db/escuela.db         # Base de datos SQLite
 │  └─ package.json
