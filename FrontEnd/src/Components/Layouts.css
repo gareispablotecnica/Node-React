@@ -1,0 +1,73 @@
+
+.encabezado {
+  background-color: #2c3e50; 
+  padding: 15px 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+
+.menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.menu a {
+  text-decoration: none;
+  color: #ecf0f1; 
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+
+.menu a:hover {
+  background-color: #3498db; 
+  color: white;
+  transform: scale(1.05);
+}
+
+
+.datos {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #2c3e50;       
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;                
+  color: #ecf0f1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.datos thead {
+  background-color: #34495e;
+}
+
+.datos th, .datos td {
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.datos tbody tr {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+
+.datos tbody tr:hover {
+  background-color: #3498db;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+
+.datos td:first-child {
+  font-weight: bold;
+}
+
+
