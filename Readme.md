@@ -3,7 +3,7 @@
  -Este proyecto es una API REST construida con Node.js, Express y SQLite3.
 Su propósito es manejar una base de datos de ejemplo (escuela.db) en la que se gestionan Alumnos.
 
-## Datos del Curso:
+## 📚 Datos del Curso:
 - Materia: Proyecto, Diseño e Implementación de Sistemas Computacionales
 - Carrera: Técnicatura en Programación - Informática Personal y Profesional
 - Institución: Técnica N°1
@@ -11,7 +11,7 @@ Su propósito es manejar una base de datos de ejemplo (escuela.db) en la que se 
 - Docente: Prof. Gareis Pablo
 
 
-## Tecnologías utilizadas
+## 🖥 Tecnologías utilizadas
 
 - Node.js (JavaScript en backend)
 
@@ -22,7 +22,7 @@ Su propósito es manejar una base de datos de ejemplo (escuela.db) en la que se 
 - Dotenv (para manejar variables de entorno)
 
 
-## Proyecto Node + React + SQLite3
+## 🛠 Proyecto Node + React + SQLite3
 
 Este proyecto es una aplicación FullStack compuesta por:
 
@@ -30,7 +30,7 @@ BackEnd: API REST construida con Node.js + Express + SQLite3 para gestionar una 
 
 FrontEnd: Interfaz web desarrollada en React + Vite, que consume la API para mostrar y modificar datos de alumnos.
 
-## Estructura del Proyecto
+## 🗂 Estructura del Proyecto
 ```
 NODE-REACT/
 ├─ BackEnd/                # Servidor en Node.js (API REST)
