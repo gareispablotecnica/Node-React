@@ -8,7 +8,7 @@ function Encabezado() {
                     {/* Indicamos con "/" que vuelva a la pagina principal */}
                     <Link to="/">Home</Link>
                     <Link to="/VerTabla">Ver Tabla</Link>
-                    <Link to="">Modificar Alumnos</Link>
+                    <Link to="/RegistrarAlumnos">Registrar Alumnos</Link>
                 </nav>
             </header>
         </>

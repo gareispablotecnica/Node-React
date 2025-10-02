@@ -3,6 +3,7 @@ import './Layouts.css'
 // ---> Sirve para las rutas de los enlaces en el menú de navegación
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import VerTabla from './Pages/VerTabla';
+import RegistrarAlumnos from './Pages/RegistrarAlumnos';
 function Layouts() {
   return (
     <>
@@ -12,6 +13,7 @@ function Layouts() {
         <Routes>
           {/* Indicamos la Ruta de Navegacion */}
           <Route path="/VerTabla" element={<VerTabla />} />
+          <Route path="/RegistrarAlumnos" element={<RegistrarAlumnos />} />
         </Routes>
       </Router>
 

@@ -6,5 +6,6 @@ const router= express.Router();
 const ruta=require('../Controllers/VerTablaAlumno.Controller')
 // ---> Definimos las Rutas
 router.get('/verAlumnos',ruta.VerTablaAlumnos)
+router.post('/verAlumnos',ruta.RegistrarAlumnos)
 // ---> Exportamos las Rutas
 module.exports=router;

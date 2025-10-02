@@ -17,3 +17,26 @@ exports.VerTablaAlumnos=(req,res)=>{
         }
     })
 }
+
+// ---> RegistrarAlumnos
+exports.RegistrarAlumnos=(req,res)=>{
+
+    const {DNI,Nombre,Apellido}=req.body;
+    // ---> Query para ver la tabla
+    query='INSERT INTO Alumnos(DNI,Nombre,Apellido)VALUES(?,?,?)';
+    // ---> Ejecutar la Query
+    db.run(query,[DNI,Nombre,Apellido],(Error)=>{
+        if(Error){
+            // ---> Enviar Error
+            return res.status(500).json({Error:'❗ Error en la Carga de datos'})
+        }
+        else{
+            // ---> Enviar las Filas
+            res.json({
+                Mensaje:'Datos Registrados',
+                ID:this.lastID
+            })
+        }
+    })
+}
+
