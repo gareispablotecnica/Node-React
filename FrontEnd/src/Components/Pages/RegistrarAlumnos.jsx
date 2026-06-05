@@ -14,7 +14,7 @@ function RegistrarAlumnos() {
 
         try {
             // ---> Ubicacion del Servidor
-            const Servidor = await fetch('http://localhost:3000/api/VerAlumnos', {
+            const Servidor = await fetch('hhttps://node-react-rvou.onrender.com/api/VerAlumnos', {
                 // ---> Metodo a Utilizar
                 method: 'POST',
                 // --->
