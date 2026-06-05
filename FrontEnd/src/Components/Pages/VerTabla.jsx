@@ -10,7 +10,7 @@ function VerTabla() {
         const Servidor = async () => {
             try {
                 // ---> Hacemos la peticion al servidor (BackEnd)
-                const respuesta = await axios.get('http://localhost:3000/api/VerAlumnos')
+                const respuesta = await axios.get('https://node-react-rvou.onrender.com/api/VerAlumnos')
                 // ---> Guardamos los datos en el state
                 setAlumnos(respuesta.data)
             }
