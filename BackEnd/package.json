@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Clase Práctica",
   "license": "MIT",
-  "author": "Aragón Lautaro",
+  "author": "Gareis Pablo",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
